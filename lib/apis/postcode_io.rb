@@ -1,0 +1,2 @@
+class PostcodeIo
+end

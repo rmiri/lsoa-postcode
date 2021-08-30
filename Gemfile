@@ -26,9 +26,13 @@ gem 'httparty'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
+  # To use binding.pry
   gem 'pry'
-  gem 'rspec-rails', '~> 5.0.0'
+  gem 'rspec-rails', '~> 5.0.0' 
+  # Stub HTTP requests 
+  gem 'webmock'
 end
+
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
